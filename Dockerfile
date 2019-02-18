@@ -10,4 +10,4 @@ WORKDIR /
 
 COPY index.html index.html
 
-CMD [ "python", "-m", "SimpleHTTPServer", "80" ]
+CMD [ "python", "-m", "SimpleHTTPServer", "8080" ]
